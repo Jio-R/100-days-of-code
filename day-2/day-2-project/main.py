@@ -8,7 +8,7 @@
 #Write your code below this line 👇
 
 bill = float(input("What's the bill? $"))
-tip = float(input("And how much will you be tipping today?\n(%): "))/100 + 1 #Tip saved as a multiplier, i.e. 1.5
+tip = float(input("And how much will you be tipping today?\n(%): "))/100 + 1 #Tip saved as a multiplier, i.e. 1.2 for 20%
 people = int(input("Lastly, how many people will split the bill?\n"))
 
 print("Each person should pay: $%s" % (bill*tip/people))
