@@ -19,5 +19,4 @@ def diagnosis(BMI):
     if BMI >= 35.0:
         return "are clinically obese"
 
-print(f"""%s ÷ %s^2 = %s
-Your BMI is %s, you are %s.""" % (weight, height, BMI, round(BMI), diagnosis(BMI)))
+print(f"Your BMI is %s, you are %s." % (round(BMI), diagnosis(BMI)))
