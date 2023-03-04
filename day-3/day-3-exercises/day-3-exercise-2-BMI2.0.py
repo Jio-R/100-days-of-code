@@ -19,4 +19,4 @@ def diagnosis(BMI):
     if BMI >= 35.0:
         return "are clinically obese"
 
-print(f"Your BMI is %s, you are %s." % (round(BMI), diagnosis(BMI)))
+print(f"Your BMI is %s, you %s." % (round(BMI), diagnosis(BMI)))
